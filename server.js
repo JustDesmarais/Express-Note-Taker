@@ -8,6 +8,7 @@ const notesData = require('./db/db.json');
 
 const PORT = 3001
 
+app.use(express.json());
 app.use(express.static('public'));
 
 //app.get('*', (req, res) =>
@@ -26,6 +27,7 @@ app.get('/api/notes', (req, res) => res.json(notesData));
 
 app.post('/api/notes', (req, res) => {
     console.info(`${req.method} request received to add a note`);
+    console.info(req.body);
 
     const {title, text} = req.body;
 
