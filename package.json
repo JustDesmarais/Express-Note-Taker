@@ -1,0 +1,23 @@
+{
+  "name": "express-note-taker",
+  "version": "1.0.0",
+  "description": "A Note-taking app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustDesmarais/Express-Note-Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustDesmarais/Express-Note-Taker/issues"
+  },
+  "homepage": "https://github.com/JustDesmarais/Express-Note-Taker#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
