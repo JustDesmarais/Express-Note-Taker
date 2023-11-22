@@ -5,7 +5,7 @@ const api = require('./routes/index')
 const app = express();
 
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001;
 
 //middleware for static pages, JSON POST, and api routing
 app.use(express.json());
