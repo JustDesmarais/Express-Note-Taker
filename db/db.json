@@ -1,47 +1,12 @@
 [
     {
-        "title": "Test Title",
-        "text": "Test text",
-        "id": "Test ID"
+        "title": "First Note",
+        "text": "the very first note in a ne line of notes",
+        "id": "416199e4-fdbc-46fb-a7e3-111656fe0cd8"
     },
     {
-        "title": "Test",
-        "text": "UI",
-        "id": "4c073038-879e-4182-8d0c-98b57a22ecad"
-    },
-    {
-        "title": "2nd Test",
-        "text": "blah blah",
-        "id": "366ff5f7-9925-462c-af3b-3133b6589668"
-    },
-    {
-        "title": "Test the Third",
-        "text": "Module Rule!",
-        "id": "c65d16b2-254e-4d8e-8359-14a840541113"
-    },
-    {
-        "title": "Test the 4th",
-        "text": "The fourth is strong here",
-        "id": "8dab86bf-04d8-45c6-b7c1-110cd9957c38"
-    },
-    {
-        "title": "A test on the page",
-        "text": "Not a well built page it seems",
-        "id": "c39d81bb-2dc5-4f42-b960-f86c3a9ce00c"
-    },
-    {
-        "title": "Try writing",
-        "text": "written",
-        "id": "0377f899-1572-48dc-b300-ca27729733ca"
-    },
-    {
-        "title": "Turkey Test",
-        "text": "Happy Thanksgiving!",
-        "id": "fec8daae-a21b-4a21-a4a4-3d8beec72179"
-    },
-    {
-        "title": "New Notes",
-        "text": "on November 22nd!",
-        "id": "83fb76ac-4aca-49d5-8f5c-2a0a32a9c9bd"
+        "title": "Second Note",
+        "text": "The second note, much like the second song on an album, is usually a banger",
+        "id": "b1093c12-1915-4e2f-90fa-3773c3e17843"
     }
 ]

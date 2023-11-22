@@ -1,13 +1,24 @@
 // create router and import helper functions from fsUtils.js file
 const notes = require('express').Router();
-const { readFromFile, readAndAppend } = require('../helpers/fsUtils');
+const { readFromFile, readAndAppend, readAndRemove } = require('../helpers/fsUtils');
 
 // npm library to create unique ID for each note submitted via POST
 const { v4: uuidv4 } = require('uuid');
 
+// Delete request that removes notes from the database
+notes.delete('/:id', (req, res) => {
+    console.info(`${req.method} request received to delete a note`);
+    readAndRemove(req.params.id, './db/db.json')
+    const response = {
+        status: 'success',
+        body: 'Note successully removed'
+    }; 
+    res.status(201).json(response);
+});
+
 // Returns contents of db.json as JSON following GET request
 notes.get('/', (req, res) => {
-    console.info(`${req.method} request received for tips`);
+    console.info(`${req.method} request received for notes`);
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
